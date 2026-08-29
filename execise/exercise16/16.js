@@ -5,7 +5,7 @@
 
 
 
-let score=49
+let score=50
 if(score >= 50)
 {
 console.log("you passed")
