@@ -9,7 +9,7 @@
 
 
 
-let tem = 55
+let tem = 20
 
 if(tem < 0){
     console.log("is very cold")
