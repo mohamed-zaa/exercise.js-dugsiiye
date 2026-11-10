@@ -1,17 +1,8 @@
 
 
-
-
-
-
-
-let car = {
- make : "bmw",
- model : "gx",
- year : 2020,
+let i=5
+while(i>0){
+    console.log(i)
+    i--
 
 }
-
-console.log(car.make)
-console.log(car.model)
-console.log(car.year)

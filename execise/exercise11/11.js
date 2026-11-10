@@ -15,8 +15,10 @@
 
 
 
+const fruits = ["apple" , "banana" ,"cherry"]
 
 
- for (let i= 1 ; i <= 50 ; i++){
-    console.log(i)
- }
+for (let i=0 ; i < fruits;i++){
+    console.log(fruits[i])
+
+}

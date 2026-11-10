@@ -1,11 +1,6 @@
 
 
+let Firstname = "ali"
+let Lastname = "hasan"
 
-
-let isSunny =true 
- let isWeekend= true
-
-
- console.log(isSunny && isWeekend )
-
- 
+console.log(Firstname + Lastname)

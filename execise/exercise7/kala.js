@@ -4,19 +4,48 @@
 
 
 
-let colors = ["green", "blue", "red" ]
 
-    console.log(colors[0])
-      console.log(colors[1])
-        console.log(colors[2])
-
-// push
-
-        colors.push("brown")
-        console.log(colors)
+const people = [
 
 
-        // shift
+{
+  name : "ali" ,
+age : 45,
+city: "berbera"
 
-        colors.shift()
-        console.log(colors)
+
+
+},
+
+
+
+{
+  name : "hasan" ,
+age : 99,
+city: "burco"
+
+
+
+},
+
+
+
+{
+  name : "axmed" ,
+age : 12,
+city: "basaso"
+
+
+
+},
+
+
+];
+for (let person of people){
+  console.log("---");
+
+for(let key in person){
+  console.log(key + ":", person[key]);
+}
+
+}
